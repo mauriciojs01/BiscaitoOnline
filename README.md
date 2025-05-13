@@ -13,17 +13,18 @@ O escopo definido para a primeira entrega funcional inclui:
 
 ✅ Sistema de busca inteligente de serviços (biscatos);
 
-✅ Filtros dinâmicos por categoria, localização e valor;
+✅ Filtros dinâmicos por categoria, localização;
 
 ✅ Avaliações, comentários e feedbacks entre usuários;
 
-✅ Notificações em tempo real (push/email);
+✅ Notificações (push/email);
 
 ✅ Deploy completo em ambiente de produção;
 
 ✅ Apresentação técnica e funcional para stakeholders.
 
 🧠 Justificativa Estratégica
+
 O BiscatoOnline responde à necessidade urgente de mecanismos tecnológicos que promovam inclusão econômica e visibilidade para profissionais informais. Ao digitalizar a intermediação de serviços, especialmente em regiões com altos índices de informalidade como o Cazenga, o projeto:
 
 Gera novas fontes de renda sustentáveis;
@@ -37,47 +38,53 @@ Cria um banco de talentos informais com reputação validada.
 🛠️ Recursos e Tecnologias Necessárias
 Time Técnico:
 
-Desenvolvedor Front-End (React.js + TailwindCSS)
+Desenvolvedor Front-End (HTML/CSS/JS)
 
 Desenvolvedor Back-End (Node.js + Express)
 
 UI/UX Designer (Figma)
 
-Gerente Técnico (scrum master/facilitador de sprint)
+Gerente Técnico
 
 Infraestrutura:
 
 VSCode / GitHub (CI/CD & controle de versão)
 
-PostgreSQL (DB relacional com foco em integridade)
+MySQL (DB relacional com foco em integridade)
 
-Render (Hospedagem fullstack + banco de dados)
+Versel (Hospedagem fullstack + banco de dados)
 
 Figma (Wireframes e protótipos interativos)
 
 ⚠️ Riscos Identificados
+
 Risco	Impacto	Plano de Mitigação
+
 Atraso na integração front-end/back-end	Alto	Definição antecipada de contratos API + Swagger
+
 Falta de testes com usuários reais	Médio	Rodadas rápidas de entrevistas com potenciais usuários no Cazenga
+
 Baixa adesão inicial	Médio	Estratégia de onboarding + divulgação com líderes comunitários
 
-🧪 Critérios de Sucesso
-🔧 Sistema funcional com fluxo completo (cadastro, busca, contratação, feedback);
+Critérios de Sucesso:
 
-🖥️ Interface amigável, mobile-first e responsiva;
+Sistema funcional com fluxo completo (cadastro, busca, contratação, feedback);
 
-🔗 Integração total entre front-end e back-end via API REST;
+Interface amigável, mobile-first e responsiva;
 
-📄 Documentação técnica validada (arquitetura, endpoints, fluxos de dados);
+Integração total entre front-end e back-end via API REST;
 
-🎤 Apresentação sólida para stakeholders, com demo funcional e indicadores de impacto.
+Documentação técnica validada (arquitetura, endpoints, fluxos de dados);
+
+Apresentação sólida para stakeholders, com demo funcional e indicadores de impacto.
 
 🚀 Próximos Passos (Sprint 0)
+
  Definir arquitetura do sistema e modelo de dados
 
  Finalizar protótipo navegável no Figma
 
- Criar repositórios no GitHub (mono repo ou separação por microserviços)
+ Criar repositórios no GitHub
 
  Iniciar setup do ambiente de desenvolvimento local e cloud
 
